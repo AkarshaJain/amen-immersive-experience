@@ -2,22 +2,6 @@
 
 A modern, responsive website for THE AMEN IMMERSIVE EXPERIENCE - a faith-based event featuring music, food, and fellowship.
 
-## 🌟 **Features**
-
-- **Modern 2025 Design** - Clean, sophisticated aesthetic
-- **Full-Responsive Layout** - Works on all devices
-- **Interactive Elements** - Smooth animations and hover effects
-- **Comprehensive Sections** - Tour schedule, music lineup, food, experiences, merchandise
-- **Social Integration** - Connect with us section with social media links
-- **Mobile App Integration** - AMEN mobile app download section
-
-## 🎨 **Design System**
-
-- **Color Palette**: Navy (#2F4156), Teal (#567C8D), Sky Blue (#C8D9E6), Beige (#F5EFEB), White (#FFFFFF)
-- **Typography**: Inter font family for modern readability
-- **Layout**: Full-screen sections with smooth scrolling
-- **Animations**: CSS-based animations for enhanced user experience
-
 ## 📱 **Sections**
 
 1. **Hero Section** - Main landing with call-to-action
@@ -50,21 +34,13 @@ A modern, responsive website for THE AMEN IMMERSIVE EXPERIENCE - a faith-based e
 
 ## 🌐 **Live Demo**
 
-Visit the live website: [Your GitHub Pages URL will be here]
+Visit the live website: [(https://akarshajain.github.io/amen-immersive-experience/)]
 
 ## 🔧 **Local Development**
 
 1. Clone the repository
 2. Open `index.html` in your browser
 3. Or use a local server: `python -m http.server 8000`
-
-## 📱 **Browser Support**
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers
 
 ## 🤝 **Contributing**
 
