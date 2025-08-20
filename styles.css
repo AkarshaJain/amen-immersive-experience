@@ -1,3 +1,4 @@
+/* Force GitHub Pages refresh - Updated: January 2025 - Enhanced with Spiritual Images */
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -169,7 +170,10 @@ body {
     justify-content: center;
     text-align: center;
     padding: 0;
-    background: linear-gradient(135deg, #FFFFFF 0%, #F5EFEB 100%);
+    background: linear-gradient(rgba(47, 65, 86, 0.7), rgba(86, 124, 141, 0.7)), url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     position: relative;
     overflow: hidden;
 }
@@ -259,6 +263,14 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+.section:nth-child(even) {
+    background: linear-gradient(rgba(245, 239, 235, 0.9), rgba(200, 217, 230, 0.9)), url('https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .section .container {
@@ -362,6 +374,42 @@ body {
 .merch-grid::-webkit-scrollbar-thumb {
     background: #567C8D;
     border-radius: 3px;
+}
+
+/* Schedule Header Styles */
+.schedule-header {
+    position: relative;
+    margin-bottom: 3rem;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.schedule-bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.schedule-header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.schedule-header-content .section-title {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.schedule-header-content .section-subtitle {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .tour-grid {
@@ -489,13 +537,19 @@ body {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: #C8D9E6;
     margin: 0 auto 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
-    color: #2F4156;
+    overflow: hidden;
+    border: 3px solid #C8D9E6;
+}
+
+.artist-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .artist-name {
@@ -533,10 +587,23 @@ body {
 }
 
 /* Experience Card Styles */
-.experience-icon {
-    font-size: 3rem;
-    text-align: center;
+.experience-image {
+    width: 100%;
+    height: 200px;
     margin-bottom: 1rem;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.experience-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.experience-image:hover img {
+    transform: scale(1.05);
 }
 
 .experience-title {
@@ -587,9 +654,22 @@ body {
 
 /* Merchandise Styles */
 .merch-image {
-    font-size: 3rem;
-    text-align: center;
+    width: 100%;
+    height: 200px;
     margin-bottom: 1rem;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.merch-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.merch-image:hover img {
+    transform: scale(1.05);
 }
 
 .merch-name {
@@ -692,6 +772,26 @@ body {
     border-radius: 16px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.category-image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.category-image:hover img {
+    transform: scale(1.05);
 }
 
 .category-title {
