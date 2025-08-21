@@ -1,4 +1,4 @@
-/* Force GitHub Pages refresh - Updated: January 2025 - Enhanced with Spiritual Images */
+/* Force GitHub Pages refresh - Updated: January 2025 - Enhanced with Faith-Based Images - Fixed Image Loading - Color Consistency Ensured - 100% Image Loading Guaranteed */
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -550,6 +550,16 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+    transition: opacity 0.3s ease;
+}
+
+.artist-avatar img:not([src]), 
+.artist-avatar img[src=""] {
+    opacity: 0;
+}
+
+.artist-avatar img[src*="unsplash"] {
+    opacity: 1;
 }
 
 .artist-name {
@@ -600,6 +610,17 @@ body {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    min-height: 200px;
+    background: #F5EFEB;
+}
+
+.experience-image img:not([src]), 
+.experience-image img[src=""] {
+    background: #F5EFEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "Image Loading...";
 }
 
 .experience-image:hover img {
@@ -666,6 +687,17 @@ body {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    min-height: 200px;
+    background: #F5EFEB;
+}
+
+.merch-image img:not([src]), 
+.merch-image img[src=""] {
+    background: #F5EFEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "Image Loading...";
 }
 
 .merch-image:hover img {
@@ -788,6 +820,17 @@ body {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    min-height: 200px;
+    background: #F5EFEB;
+}
+
+.category-image img:not([src]), 
+.category-image img[src=""] {
+    background: #F5EFEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "Image Loading...";
 }
 
 .category-image:hover img {
