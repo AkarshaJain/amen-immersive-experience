@@ -13,9 +13,6 @@ html {
 
 body {
     scroll-snap-type: y proximity;
-}
-
-body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: #2F4156;
@@ -278,10 +275,6 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
-}
-
-.section .container {
-    width: 100%;
 }
 
 .section-title {
