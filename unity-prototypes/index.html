@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity Prototypes - Car & Plane Games</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .game-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .game-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            border-color: #dc3545;
+        }
+        .game-title {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .game-description {
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        .play-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #dc3545, #c82333);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(220,53,69,0.3);
+        }
+        .play-button:hover {
+            background: linear-gradient(45deg, #c82333, #a71e2a);
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(220,53,69,0.4);
+        }
+        .assignment-info {
+            background: linear-gradient(135deg, #e9ecef, #f8f9fa);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border-left: 5px solid #dc3545;
+        }
+        .assignment-info h2 {
+            color: #333;
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+        .assignment-info p {
+            color: #666;
+            margin: 8px 0;
+            font-size: 1.1em;
+        }
+        .unity-badge {
+            background: #dc3545;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            display: inline-block;
+            margin: 5px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Unity Prototypes - Car & Plane Games</h1>
+        
+        <div class="assignment-info">
+            <h2>📋 Assignment Information</h2>
+            <p><strong>Student:</strong> AkarshaJain</p>
+            <p><strong>Course:</strong> CSCI-526 Advanced Mobile Devices and Game Console</p>
+            <p><strong>Assignment:</strong> Unity Beginner Sequence (100 pts)</p>
+            <p><strong>Due Date:</strong> July 8th, 2025, 11:59pm</p>
+            <p><strong>Pathway:</strong> Unity Essentials + Junior Programmer</p>
+        </div>
+
+        <div class="games-grid">
+            <div class="game-card">
+                <div class="game-title">🚗 Car Prototype</div>
+                <div class="game-description">
+                    <strong>Unit 1 - Player Control (20 pts):</strong> Drivable car with realistic turning mechanics and physics. 
+                    Camera follows behind the car with smooth movement. Features obstacle course with barriers and terrain.
+                    Demonstrates vehicle physics, camera systems, and player control implementation.
+                </div>
+                <div class="unity-badge">Junior Programmer</div>
+                <div class="unity-badge">Vehicle Physics</div>
+                <div class="unity-badge">Camera Control</div>
+                <br><br>
+                <a href="car-prototype/" class="play-button">🎮 Play Car Prototype</a>
+            </div>
+
+            <div class="game-card">
+                <div class="game-title">✈️ Plane Prototype</div>
+                <div class="game-description">
+                    <strong>Unit 1 - Player Control (20 pts):</strong> Flying plane with pitch control and forward momentum. 
+                    Plane has velocity without user input (non-stationary) and moves at reasonable speed.
+                    Camera positioned beside the plane with smooth following. Features sky obstacle course.
+                </div>
+                <div class="unity-badge">Junior Programmer</div>
+                <div class="unity-badge">Flight Physics</div>
+                <div class="unity-badge">Aircraft Control</div>
+                <br><br>
+                <a href="plane-prototype/" class="play-button">🎮 Play Plane Prototype</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>🎓 <strong>Unity Learn Pathways Completed</strong></p>
+            <p>✅ Unity Essentials | ✅ Junior Programmer</p>
+            <p>📊 <strong>Total Points:</strong> 100/100</p>
+        </div>
+    </div>
+</body>
+</html>
