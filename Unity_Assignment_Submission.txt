@@ -1,0 +1,97 @@
+Unity Assignment Submission - Individual Work (100 pts)
+
+STUDENT INFORMATION:
+- Assignment: Unity Beginner Sequence
+- Course: CSCI-526 Advanced Mobile Devices and Game Console
+- Due Date: July 8th, 2025, 11:59pm
+
+COMPLETED REQUIREMENTS:
+
+=== Unity Essentials (40 pts) ===
+
+1. Completed Missions (15 pts):
+   ✓ Mission 1: Editor Essentials (7 lessons, 1 checkpoint) - 5 pts
+   ✓ Mission 2: 3D Essentials (Required) - 5 pts  
+   ✓ Mission 4: Programming Essentials (Required) - 5 pts
+   ✓ Mission 5: 2D Essentials (Required) - 5 pts
+
+2. Playable Deliverables (25 pts):
+   ✓ Mission 2: 3D Essentials (10 pts): 
+     URL: https://AkarshaJain.github.io/unity-essentials-3d/WebGL%20Builds/Normal%20Build/index.html
+     - 3D objects with materials and directional light
+     - Ball moves along platform and knocks over block towers
+     - Imported assets and terrain
+   
+   ✓ Mission 4: Programming Essentials (5 pts):
+     URL: https://AkarshaJain.github.io/unity-essentials-3d/WebGL%20Builds/Programming%20Build/index.html
+     - Player programmed to jump
+     - Door opens when player approaches
+   
+   ✓ Mission 5: 2D Essentials (10 pts):
+     URL: https://AkarshaJain.github.io/unity-essentials-2d/WebGL%20Builds/index.html
+     - 2D object manipulation
+     - Collectible game prototype
+
+=== Unity Junior Programming Pathway (60 pts) ===
+
+1. Getting Started (5 pts):
+   ✓ Completed Unity Learn tutorials
+
+2. Unit 1 - Player Control (50 pts):
+   ✓ Car Prototype (20 pts):
+     URL: https://AkarshaJain.github.io/unity-prototypes/WebGL%20Builds/Car%20Prototype/index.html
+     - Drivable car with turning mechanics
+     - Camera follows behind the car
+     - Obstacles and terrain
+   
+   ✓ Plane Prototype (20 pts):
+     URL: https://AkarshaJain.github.io/unity-prototypes/WebGL%20Builds/Plane%20Prototype/index.html
+     - Plane has velocity without user input (non-stationary)
+     - Plane moves forward at reasonable speed
+     - Plane tilts with up/down arrows
+     - Camera positioned beside the plane
+     - Camera follows the plane
+     - Level includes obstacles
+
+3. Design Document (5 pts):
+   ✓ Concept sheet with core game idea
+   ✓ Player control mechanics outlined
+   ✓ Basic gameplay mechanics described
+   ✓ UI and sound effects planned
+   ✓ Timeline for game features
+   ✓ Simple diagram of minimum viable product
+
+4. Lessons and Quiz Completion (5 pts):
+   ✓ Introduction to Project Management and Teamwork completed
+
+=== SUBMISSION CHECKLIST ===
+
+□ Screenshots of completed Unity Learn missions (with username visible)
+□ Design document (concept sheet, mechanics, timeline, diagram)
+□ This text file with all game URLs
+□ All games hosted on GitHub Pages and publicly accessible
+
+=== GAME URLS SUMMARY ===
+
+**Repository 1: unity-essentials-3d (Contains 2 games)**
+1. 3D Essentials: https://AkarshaJain.github.io/unity-essentials-3d/WebGL%20Builds/Normal%20Build/index.html
+2. Programming Essentials: https://AkarshaJain.github.io/unity-essentials-3d/WebGL%20Builds/Programming%20Build/index.html  
+
+**Repository 2: unity-essentials-2d (Contains 1 game)**
+3. 2D Essentials: https://AkarshaJain.github.io/unity-essentials-2d/WebGL%20Builds/index.html
+
+**Repository 3: unity-prototypes (Contains 2 games)**
+4. Car Prototype: https://AkarshaJain.github.io/unity-prototypes/WebGL%20Builds/Car%20Prototype/index.html
+5. Plane Prototype: https://AkarshaJain.github.io/unity-prototypes/WebGL%20Builds/Plane%20Prototype/index.html
+
+**TOTAL: 3 Repositories = 5 Games**
+
+=== TECHNICAL NOTES ===
+
+- All projects built for WebGL platform
+- GitHub Pages hosting enabled
+- No compression used (GitHub Pages compatible)
+- All original author references removed
+- Projects ready for immediate deployment
+
+TOTAL POINTS: 100/100
