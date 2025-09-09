@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity 2D Essentials - Assignment Game</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .game-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .game-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            border-color: #28a745;
+        }
+        .game-title {
+            font-size: 2.2em;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .game-description {
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+            font-size: 1.2em;
+        }
+        .play-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #28a745, #1e7e34);
+            color: white;
+            padding: 18px 35px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(40,167,69,0.3);
+        }
+        .play-button:hover {
+            background: linear-gradient(45deg, #1e7e34, #155724);
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(40,167,69,0.4);
+        }
+        .assignment-info {
+            background: linear-gradient(135deg, #e9ecef, #f8f9fa);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border-left: 5px solid #28a745;
+        }
+        .assignment-info h2 {
+            color: #333;
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+        .assignment-info p {
+            color: #666;
+            margin: 8px 0;
+            font-size: 1.1em;
+        }
+        .unity-badge {
+            background: #28a745;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            display: inline-block;
+            margin: 5px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Unity 2D Essentials Assignment</h1>
+        
+        <div class="assignment-info">
+            <h2>📋 Assignment Information</h2>
+            <p><strong>Student:</strong> AkarshaJain</p>
+            <p><strong>Course:</strong> CSCI-526 Advanced Mobile Devices and Game Console</p>
+            <p><strong>Assignment:</strong> Unity Beginner Sequence (100 pts)</p>
+            <p><strong>Due Date:</strong> July 8th, 2025, 11:59pm</p>
+            <p><strong>Pathway:</strong> Unity Essentials + Junior Programmer</p>
+        </div>
+
+        <div class="game-card">
+            <div class="game-title">🎯 2D Essentials</div>
+            <div class="game-description">
+                <strong>Mission 5 (10 pts):</strong> 2D object manipulation and collectible game prototype. 
+                Demonstrates 2D scene building, sprite management, and basic 2D gameplay mechanics.
+                Features character movement, item collection, and 2D physics interactions.
+            </div>
+            <div class="unity-badge">Unity Essentials</div>
+            <div class="unity-badge">2D Gameplay</div>
+            <div class="unity-badge">Sprite Management</div>
+            <br><br>
+            <a href="2d-essentials/" class="play-button">🎮 Play 2D Essentials</a>
+        </div>
+
+        <div class="footer">
+            <p>🎓 <strong>Unity Learn Pathways Completed</strong></p>
+            <p>✅ Unity Essentials | ✅ Junior Programmer</p>
+            <p>📊 <strong>Total Points:</strong> 100/100</p>
+        </div>
+    </div>
+</body>
+</html>
